@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página Alexander</title>
+    <link rel="stylesheet" href="css/general.css">
+</head>
+<body> 
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="">HOME</a>
+                <a href="#tours">TOURS</a>
+                <a href="#about">ABOUT YOUR GUIDE</a>
+                <a href="#contact">CONTACT ME</a>
+            </nav>
+            <div class="contenido-header"></div>
+        </div>
+    </header>
+
+
+    <main>
+         <!--Banner2-->
+
+         <section class="banner2" id="about">
+                <div class="contenedor">
+                        <section class="galeria2">
+                                <div class="fotoscelia">
+                                    <img src="img/palaciochico.png" alt="">
+                                </div>
+                            </section>
+                    <div class="textospe">
+                        <h3>THE HISTORIC HEART OF LIMA TOUR</h3>
+                        <p>Our adverture starts by visiting ‘Plaza de Armas’, see the famous Cathedral of Lima, the Presidential 
+                            Palace and take in the beauty of the spanish architecture. ‘Peruvian Cuisine’, we are going to take
+                            some time out from the tour to have lunch*, indulging your tastebuds with traditional Peruvian food 
+                            and drink, the reason why you came to Peru: to enjoy the most desirable culinary experience imaginable
+                            in the centre of Lima.Then we are going to visit the ‘Church of San Francisco / Catacombs’, Not for
+                            the squeamish, but an undeniably unforgettable experience. ‘The Chocolate Museum’, enjoy handcrafted
+                            Peruvian chocolate and try out your own chocolate-making skills.
+                            We are ending with some cheers at the ‘Pisco Museum’, relax with Peru’s most famous alcoholic beverage:
+                            Pisco Sour, what better way to learn about the history of this iconic drink than by experiencing it yourself.  
+                                </p>
+                    </div>
+                </div>
+                <div class="flex-container">
+                        <button class="button button1" id="myBtn">LEAR MORE</button>
+        <!-- The Modal -->
+<div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h4>PRICE:</h4>
+            <h2>145 USD</h2>
+            <p class="letritas2">(for up 2 people)</p>
+          </div>
+        
+          <div class="modal-body">
+            <h4>INCLUDES</h4>
+            <h6>Entrance Fees.</h6>
+            <p class="letritas1">Pick up and drop off in hotel located in Barranco,
+                Miraflores, San Isidro or centre of Lima.
+            </p>
+             <p class="letritas1">Bottled Water.</p>
+            <p class="letritas">If you have a bigger group or for surf lesson, please contact me. <br>
+                Note: Alcoholic beverages and food are incurred by you as your own expenses.
+                 * The lunch can be at the ‘Gran Hotel Bolívar’ historic hotel.     
+            </p>
+          </div>
+        </div>
+      
+      </div>
+
+                </div>
+            </section>
+    </main>
+
+<script>
+
+
+function myFunction() {
+    alert("Hello! I am an alert box!");
+}
+
+                        // Get the modal
+                    var modal = document.getElementById('myModal');
+
+                    // Get the button that opens the modal
+                    var btn = document.getElementById("myBtn");
+
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+
+                    // When the user clicks the button, open the modal 
+                    btn.onclick = function() {
+                        modal.style.display = "block";
+                    }
+
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
+
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+    </script>
+</body>
+</html>

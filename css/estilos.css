@@ -12,7 +12,7 @@ body{
 
 .contenedor{
     width: 90%;
-    max-width: 1000px;
+    max-width: 600px;
     overflow: hidden;
     margin: auto;
 }
@@ -21,7 +21,7 @@ body{
 
 header{
     background-image: url('../img/portada.png');
-    height:600px;
+    height:660px;
     background-repeat: no-repeat;
     background-position:center;
     background-attachment: cover;
@@ -90,12 +90,36 @@ header .contenido-header .action-header{
 header .contenido-header .action-header:hover{
     background: #15a4fa;
     color: #fff;
+} 
+
+/* --------- suplementario --------------------------------*/ 
+
+main .banner3{
+    background: #fff;
+    padding: 10px;
+   
 }
+
+main .fotosextra .fotox {
+    flex-direction: center;
+    display: flex;
+    justify-content: center;
+}
+
+main .fotosextra .fotox img {
+    height: 236px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+
+
 
 /* banner1 */ 
 
 main .portafolio{
-    background: #f0f3f5;
+    background: #fff;
     padding: 60px 0;
 }
 
@@ -126,17 +150,20 @@ main .portafolio .galeria .fotos{
 main .portafolio .galeria .fotos img{
     width: 100%;
 
-    border-radius: 5px;
-}
+} 
 main .portafolio .galeria .fotos img:hover{
     opacity:.6;
     cursor: pointer;
 }
+main .portafolio .galeria .fotos h5{
+    text-align: center
+}
 
 /* banner2 */ 
 main .banner2{
-    background: #6eb6e6;
-    padding: 60px 0;
+    background: #80c2ee;
+    padding: 10px;
+    padding-bottom: 60px;
    
 }
 
@@ -148,28 +175,35 @@ main .galeria2 .fotoscelia {
 
 main .galeria2 .fotoscelia img {
     margin: 10px;
+    height: 236px;
 }
 
 main .banner2 .textospe {
     color: #000000;
     font-size: 15px;
-    text-align: center;
 }
 
 main .banner2 .textospe p {
     font-size: 18px;
     margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+main .banner2 .textospe p br {
+    text-align: center;
 }
 main .banner2 .textospe h3 {
     margin: 10px;
+    text-align: center;
 }
 
 
 /*footer */ 
 
 footer .contacto{
-   
-    padding:60px 0;
+    background-color:#80c2ee;
+    padding:150px 0;
 }
 
 footer .footer-textos{
@@ -191,6 +225,7 @@ footer .red {
     display: flex;
     justify-content: center;
 }
+
 
 footer .red img {
     margin: 10px;
