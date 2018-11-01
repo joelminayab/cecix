@@ -15,7 +15,7 @@ body{
 }
 
 .contenedor{
-    width: 90%;
+    width: 910%;
     max-width: 600px;
     overflow: hidden;
     margin: auto;
@@ -235,6 +235,10 @@ footer {
     height: 100vh;
 }
 
+footer .contacto .contenedor{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
 footer .contacto{
     background-color:#80c2ee;
@@ -277,6 +281,7 @@ footer .footer-textos4{
 footer .logope img{
     display:block;
     margin:auto;
+    padding-top: -10px;
     padding: 10px;
     width: 294.554px;
     height: 326.468px;
