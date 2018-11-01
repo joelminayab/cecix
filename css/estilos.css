@@ -222,29 +222,30 @@ main .galeria2 .fotoscelia {
 }
 
 main .galeria2 .fotoscelia img {
-    margin: 10px;
+    margin: 14px;
     height: 236px;
+    padding-bottom: 1px;
+    padding-top: 2px;
 }
 
 main .banner2 .textospe {
+    padding-top: 5px;
     color: #000000;
-    font-size: 15px;
+    font-size: 17px;
+    text-align: center;
+
 }
 
-main .banner2 .textospe p {
-    font-size: 18px;
+main .banner2 .textospepe  {
+    font-size: 14px;
     margin-top: 10px;
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: center;
 }
 
 main .banner2 .textospe p br {
     text-align: center;
 }
-main .banner2 .textospe h3 {
-    margin: 10px;
-    text-align: center;
-}
+
 
 
 /*footer */
