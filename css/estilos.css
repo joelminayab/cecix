@@ -230,7 +230,9 @@ main .banner2 .textospe h3 {
 /*footer */
 footer {
     background-color:#80c2ee;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 100vh;
 }
 
 
