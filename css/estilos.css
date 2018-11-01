@@ -107,7 +107,7 @@ h1 {
     width: 34%;
 }
 .icon-down-open-big {
-    background: #2c77ad;
+    background: rgb(145, 243, 255);
     border-radius: 50%;
     border: 6px solid #fff;
     cursor: pointer;
@@ -191,7 +191,7 @@ main .portafolio .galeria .fotos h5{
 
 /* banner2 */ 
 main .banner2{
-    background: #80c2ee;
+    background: rgb(145, 243, 255);
     height: 100vh;
     padding: 10px;
     padding-bottom: 60px;
@@ -232,7 +232,8 @@ main .banner2 .textospe h3 {
 
 /*footer */
 footer {
-    background-color:#80c2ee;
+    
+    background-color:rgb(145, 243, 255);
     padding-bottom: auto;
     padding-top: auto;
     height: 100vh;
@@ -244,7 +245,7 @@ footer .contacto .contenedor{
 }
 
 footer .contacto{
-    background-color:#80c2ee;
+    background-color:rgb(145, 243, 255);
     padding-top: 90px;
     padding-bottom: 40px;
 }
