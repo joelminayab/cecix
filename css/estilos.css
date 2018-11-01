@@ -185,9 +185,33 @@ main .portafolio .galeria .fotos img:hover{
 }
 main .portafolio .galeria .fotos h5{
     text-align: center;
-    
-
 }
+
+/*------------------------------*/
+
+main .portafolio .galape{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration:none;
+}
+
+main .portafolio .galape .fotospe{
+    width: 30%;
+    margin-bottom:20px;
+    margin-right: 30px;
+}
+
+main .portafolio .galape .fotospe img{
+    width: 100%;
+
+
+} 
+main .portafolio .galape .fotospe img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+
 
 /* banner2 */ 
 main .banner2{
