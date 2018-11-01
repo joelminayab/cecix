@@ -8,6 +8,9 @@ body{
     background: #fff;
     font-size: 16px;
     font-family: Rubik;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Rubik; 
 
 }
 
@@ -52,7 +55,7 @@ header nav ul li:hover {
     background:#2c77ad;
 }
 .lala{
-    color:#fff;
+    color:#000;
     display:block;
     text-decoration:none;
     padding: 20px;
@@ -61,9 +64,12 @@ header nav ul li:hover {
 /*----------banner1-------------------------------*/ 
 
 .banner1{
-    background-image: url('../img/portada.png');
+    background-image: url('../img/portada3.png');
     height: 100vh;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .banner1-img {
     width: 100%;
@@ -329,6 +335,3 @@ footer .red img {
         font-size:15px;
     }
 }
-
-
-@import url('https://fonts.googleapis.com/css?family=Rubik:500');
