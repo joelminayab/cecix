@@ -17,17 +17,49 @@ body{
     margin: auto;
 }
 
-/*header 
+/*header */
 
+.header-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 2.3em 0;
+   }
 
+   nav {
+    margin: 20px;
+    text-align: center;
+   }
 
-
-
-
+   header ul li {
+    display: inline-block;
+    padding: 0 1.4em 0 0;
+    font-size: 0.9em;
+   }
+   header ul li a {
+    text-decoration: none;
+    color: #000;
+   }
+   li a.active {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    font-weight: 300;
+   }
+   li a:hover {
+    color: #000;
+   }
+   nav.fixed {
+       position: fixed;
+       display: block;
+       margin: 0;
+       padding: 10px;
+       background-color: white;
+       width: 100%;
+   }
 
 /* banner2 */ 
 main .banner2{
-    background: #fff;
+    background: blue;
     padding: 10px;
     padding-bottom: 60px;
    
@@ -98,8 +130,6 @@ main .banner2 .textospe h3 {
 }
 
 /*----------- POP UP -------------------*/
-/*--------------------------------------*/
-
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */

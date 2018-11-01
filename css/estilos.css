@@ -18,79 +18,98 @@ body{
 }
 
 /*header */ 
+.menu_bar {
+    display:none;
+}
+.header-logo {
+    position: absolute;
+    left: 2.5%;
+}
+.logo-diet-up {
+    width: 50%;
+    margin: 0.5rem;
+}
+header {
+    width: 100%;
+    z-index: 1 !important;
+    position: fixed;
+    height: 4rem;
+}
+header nav {
+    margin: 0rem 2rem;
+    text-align: center;
+}
+header nav ul {
+    list-style:none;
+}
+header nav ul li {
+    display:inline-block;
+    position: relative;
+}
+ 
+header nav ul li:hover {
+    background:#2c77ad;
+}
+.lala{
+    color:#fff;
+    display:block;
+    text-decoration:none;
+    padding: 20px;
+}
 
-header{
+/*----------banner1-------------------------------*/ 
+
+.banner1{
     background-image: url('../img/portada.png');
-    height:660px;
-    background-repeat: no-repeat;
-    background-position:center;
-    background-attachment: cover;
+    height: 100vh;
+    background-position: center;
 }
-header .menu{
-    margin:30px 0;
-    display:flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+.banner1-img {
+    width: 100%;
+    height: 675px;
 }
-header .menu a:hover{
-    text-decoration: underline;
+.tablet1{
+    display: none;
 }
-header .menu a{
-    font-size:18px;
-    font-family: 'lato';
-    font-weight: 300;
-    display: inline-block;
-    padding:10px 0;
-    margin:0 15px;
-    color:#fff;
-    text-decoration: none;
+.text-banner1{
+	position: absolute;
+    top: 21%;
+    left: 13%;
 }
-header .contenido-header{
-    margin:120px 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-header .contenido-header .titulo-header{
-    font-size: 120px;
-    text-align: center;
-    color: #fff;
-    text-align: center;
+.text-banner1 p{
+    font-size: 1.5em;
 }
 
-header .contenido-header .linea-header{
-    width: 700px;
-    margin: auto;
-    height:2px;
-    background: #15a4fa;
-    margin-bottom:30px;
-    text-align: center;
+h1 {
+	font-size: 3em;
+    line-height: 1.4;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
-
-header .contenido-header .texto-header{
-    color:#fff;
-    font-weight: 300;
-    margin-bottom:30px;
-    font-size:20px;
-    text-align: center;
+.b1-text-h3{
+	font-weight: lighter;
+    font-size: 1.5em;
 }
-
-header .contenido-header .action-header{
-    display: inline-block;
-    margin: auto;
-    color: #fff;   
-    text-decoration: none;
-    border:1px solid #15a4fa;
-    padding: 10px 20px;
-    border-radius: 5px;
+.icon-option {
+    position: absolute;
+    top: 72%;
+    left: 13%;
 }
-
-header .contenido-header .action-header:hover{
-    background: #15a4fa;
-    color: #fff;
-} 
+.banner1-icon-app{
+    margin: 0.5rem;
+    width: 34%;
+}
+.icon-down-open-big {
+    background: #2c77ad;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    cursor: pointer;
+    left: 50%;
+    padding: 7px;
+    position: absolute;
+    top: 94.5%;
+    z-index: 1;
+}
 
 /* --------- suplementario --------------------------------*/ 
 
