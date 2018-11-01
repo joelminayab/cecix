@@ -234,22 +234,22 @@ main .banner2 .textospe h3 {
 
 footer .contacto{
     background-color:#80c2ee;
-    padding:150px 0;
+    padding-top: 90px;
+    padding-bottom: 40px;
 }
 
 footer .footer-textos1{
-<<<<<<< HEAD
     text-align: center;
     color: #000;
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 15px;
+    margin-top: 12px;
 }
 
 footer .footer-textos2{
  
     text-align: center;
     color: #000;
-    font-size: 30px;
+    font-size: 27px;
     margin-top: 5px;
 }
 
@@ -257,63 +257,32 @@ footer .footer-textos3{
 
     text-align: center;
     color: #000;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 5px;
 }
 
 footer .footer-textos4{
     text-align: center;
     color: #000;
-    font-size: 18px;
-    margin-top: 15px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
-=======
-    text-align: center;
-    color: #000;
-    font-size: 18px;
-    margin-top: 20px;
-}
-
-footer .footer-textos2{
- 
-    text-align: center;
-    color: #000;
-    font-size: 30px;
-    margin-top: 5px;
-}
-
-footer .footer-textos3{
-
-    text-align: center;
-    color: #000;
-    font-size: 25px;
-    margin-top: 5px;
-}
-
-footer .footer-textos4{
-    text-align: center;
-    color: #000;
-    font-size: 18px;
-    margin-top: 15px;
-}
-
->>>>>>> a36f250299ccc5338d62b9a00e36e93ede6ee3b1
 
 
 footer .logope img{
-    width:294.5px;
-    height:326.4px;
     display:block;
     margin:auto;
     padding: 10px;
+    width: 294.554px;
+    height: 326.468px;
 }
 
 footer .red {
     flex-direction: center;
     display: flex;
     justify-content: center;
-    margin-top: 13px;
+    margin-top: 7px;
 }
 
 
@@ -321,10 +290,6 @@ footer .red img {
     margin: 10px;
 }
 
-.footer{
-    height:200px;
-    background: #000;
-}
 
 
 /* -----movil --- */ 
