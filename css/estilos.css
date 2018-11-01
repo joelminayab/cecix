@@ -8,12 +8,9 @@ body{
     background: #fff;
     font-size: 16px;
     font-family: Rubik;
-<<<<<<< HEAD
     font-weight: 500;
     font-style: normal;
     font-family: Rubik; 
-=======
->>>>>>> a36f250299ccc5338d62b9a00e36e93ede6ee3b1
 
 }
 
@@ -236,6 +233,7 @@ footer .contacto{
     background-color:#80c2ee;
     padding-top: 90px;
     padding-bottom: 40px;
+    background-size: cover;
 }
 
 footer .footer-textos1{
@@ -335,9 +333,3 @@ footer .red img {
         font-size:15px;
     }
 }
-<<<<<<< HEAD
-=======
-
-
-@import url('https://fonts.googleapis.com/css?family=Rubik:500');
->>>>>>> a36f250299ccc5338d62b9a00e36e93ede6ee3b1
