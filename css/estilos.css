@@ -230,13 +230,13 @@ main .banner2 .textospe h3 {
 /*footer */
 footer {
     background-color:#80c2ee;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: auto;
+    padding-top: auto;
     height: 100vh;
 }
 
 footer .contacto .contenedor{
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -281,8 +281,6 @@ footer .footer-textos4{
 footer .logope img{
     display:block;
     margin:auto;
-    padding-top: -10px;
-    padding: 10px;
     width: 294.554px;
     height: 326.468px;
 }
