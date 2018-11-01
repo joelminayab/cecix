@@ -147,7 +147,7 @@ main .fotosextra .fotox img {
 
 main .portafolio{
     background: #fff;
-    padding: 100px 100px;
+    padding: 150px 150px;
 }
 
 main .portafolio .portafolio-textos{
@@ -167,6 +167,7 @@ main .portafolio .galeria{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-decoration:none;
 }
 
 main .portafolio .galeria .fotos{
@@ -183,7 +184,9 @@ main .portafolio .galeria .fotos img:hover{
     cursor: pointer;
 }
 main .portafolio .galeria .fotos h5{
-    text-align: center
+    text-align: center;
+    
+
 }
 
 /* banner2 */ 
@@ -236,7 +239,7 @@ footer {
 }
 
 footer .contacto .contenedor{
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 20px;
 }
 
