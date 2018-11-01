@@ -134,7 +134,7 @@ main .fotosextra .fotox {
 }
 
 main .fotosextra .fotox img {
-    height: 300px;
+    height: 320px;
     margin-top: 200px;
     margin-bottom: 200px;
 }
@@ -220,6 +220,11 @@ main .galeria2 .fotoscelia {
     display: flex;
     justify-content: center;
 }
+
+main .galeria2 {
+    padding-top: 25px;
+}
+
 
 main .galeria2 .fotoscelia img {
     margin: 14px;
