@@ -8,9 +8,12 @@ body{
     background: #fff;
     font-size: 16px;
     font-family: Rubik;
+<<<<<<< HEAD
     font-weight: 500;
     font-style: normal;
     font-family: Rubik; 
+=======
+>>>>>>> a36f250299ccc5338d62b9a00e36e93ede6ee3b1
 
 }
 
@@ -235,6 +238,7 @@ footer .contacto{
 }
 
 footer .footer-textos1{
+<<<<<<< HEAD
     text-align: center;
     color: #000;
     font-size: 18px;
@@ -264,6 +268,37 @@ footer .footer-textos4{
     margin-top: 15px;
 }
 
+=======
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer .footer-textos2{
+ 
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+footer .footer-textos3{
+
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+footer .footer-textos4{
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+>>>>>>> a36f250299ccc5338d62b9a00e36e93ede6ee3b1
 
 
 footer .logope img{
@@ -335,3 +370,9 @@ footer .red img {
         font-size:15px;
     }
 }
+<<<<<<< HEAD
+=======
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+>>>>>>> a36f250299ccc5338d62b9a00e36e93ede6ee3b1
