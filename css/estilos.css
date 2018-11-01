@@ -16,7 +16,7 @@ body{
 
 .contenedor{
     width: 910%;
-    max-width: 600px;
+    max-width: 700px;
     overflow: hidden;
     margin: auto;
 }
@@ -147,32 +147,21 @@ main .fotosextra .fotox img {
 
 main .portafolio{
     background: #fff;
-    padding: 120px 120px;
-}
-
-main .portafolio .portafolio-textos{
-    text-align: center;
-    margin-bottom: 60px;
-    color:#2d3950;
-    font-size: 20px;
-}
-
-main .portafolio .portafolio-textos p{
-    color: #909090;
-    font-size: 15px;
-    margin:20px 0 0 0;
+    padding: 70px 160px;
 }
 
 main .portafolio .galeria{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    text-decoration:none;
 }
 
 main .portafolio .galeria .fotos{
-    width: 30%;
-    margin-bottom:20px;
+    width: 28%;
+    margin-bottom:10px;
+    margin-right: 20px;
+    margin-left: 1px;
+
 }
 
 main .portafolio .galeria .fotos img{
@@ -197,13 +186,17 @@ main .portafolio .galape{
 }
 
 main .portafolio .galape .fotospe{
-    width: 30%;
+    width: 28%;
     margin-bottom:20px;
-    margin-right: 30px;
+    margin-right: 35px;
+    margin-left: 12px;
+    margin-top: 15px;
 }
 
 main .portafolio .galape .fotospe img{
     width: 100%;
+    margin-left: -1px;
+    margin-right: 200px;
 
 
 } 
