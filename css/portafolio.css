@@ -78,9 +78,10 @@ header nav ul li:hover {
 /*----- button ------- */ 
 
 .banner1 img  {
+  
     position: absolute;
-    left: 46%;
-    top: 88%;
+    left: 46.5%;
+    top: 88%; 
 }
 
 .banner1 img:hover{
