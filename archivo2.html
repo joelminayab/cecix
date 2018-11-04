@@ -5,50 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>celia</title>
-    <link rel="stylesheet" href="css/copex.css">
+    <link rel="stylesheet" href="css/portada.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet"> 
+
 </head>
 <body> 
-        <header id="header-menu">
+       <header id="header-menu">
                 <div class="menu_bar">
                     <a href="#" class="bt-menu"><span class="icon-menu"></span></a>
                 </div>
                 <nav> 
                     <ul>
-                        <li><a href="#como-funciona" class="lala">HOME</a></li>
-                        <li><a href="#diet-up" class="lala">TOURS</a></li>
-                        <li><a href="#contactanos" class="lala">ABOUT YOUR GUIDE</a></li>
-                        <li><a href="#descarga" class="lala">CONTACT ME</a></li>
+                        <li><a href="#banner1" class="lala">HOME</a></li>
+                        <li><a href="#tours" class="lala">TOURS</a></li>
+                        <li><a href="#about" class="lala">ABOUT YOUR GUIDE</a></li>
+                        <li><a href="#contact" class="lala">CONTACT ME</a></li>
                     </ul>
                 </nav>
-            </header>
-    <main>
+            </header> 
+        <main>
     <!-- banner 1 -->
-    <section class="banner1">
+    <section class="banner1" id="banner1">
+       
+        <div class="flex-container">
+                <button class="button button1" id="myBtn">LEAR MORE</button>
+        </div>
     </section>
-    <!--Banner3-->
 
-         <section class="banner2" id="about">
-                <div class="contenedor">
-                        <section class="galeria2">
-                                <div class="fotoscelia">
-                                    <img src="img/2.png" alt="">
-                                </div>
-                            </section>
-                    <div class="textospe">
-                        <h3>My name is, Celia Bellido Jones<br> and I want you to experience Lima from the point of view of a local.</h3>
-                        <p>I am a Peruana. I was born in Peru and have spent my entire life living here in Lima. My native language in Spanish, but I am also fluent in English.
-                             Now, although I was born, raised and grew up here in Lima, I have seen much of the world and have had the privilege of experiencing many different 
-                             cultures. And the more that I travelled and learnt, the more I have come to appreciate just how unique Lima truly is. <br> During my own travels, I always
-                              enjoyed being shown around in a manner in which you would show an old friend, and I want you to experience Lima in the same fashion. I believe that 
-                            everybody should be able to experience and enjoy Lima just as much as myself. It is my goal that with my help, you will love your time here and recommend
-                             this great city to the rest of the world. </p>
-                    </div>
-                </div>
-            </section>
+    <script>
     
-    </main>
-    <!-- footer-->
+    var btn = document.getElementById("myBtn");
+    btn.onclick = function() {
+                        alert("Hello! I am an alert box!");
+                    }
 
+
+
+
+    </script>
     <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
 </body>
