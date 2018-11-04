@@ -96,7 +96,8 @@ header nav ul li:hover {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 204px; /* Location of the box */
+    padding-top: 100px; /* Location of the box */
+    padding-right: 64px;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -109,7 +110,7 @@ header nav ul li:hover {
 /* Modal Content */
 .modal-content {
     margin: auto;
-    padding: 30px;
+    padding: 24px;
     width: 470px;
     border-radius: 10px;
 
