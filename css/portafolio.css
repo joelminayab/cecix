@@ -89,6 +89,146 @@ header nav ul li:hover {
     cursor: pointer;
 }
 
+
+/*-----banner2-------------------*/
+
+.banner2{
+    background-image: url('../img/banner2.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tablet1{
+    display: none;
+}
+
+.banner2 .image img {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+/*----- button ------- */ 
+
+.banner2 img  {
+  
+    position: absolute;
+    left: 46.5%;
+    top: 88%; 
+}
+
+.banner2 img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+
+
+/*-----banner3-------------------*/
+
+.banner3{
+    background-image: url('../img/banner3.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tablet1{
+    display: none;
+}
+
+.banner3 .image img {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+/*----- button ------- */ 
+
+.banner3 img  {
+  
+    position: absolute;
+    left: 46.5%;
+    top: 88%; 
+}
+
+.banner3 img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+
+/*-----banner4-------------------*/
+
+.banner4{
+    background-image: url('../img/banner4.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tablet1{
+    display: none;
+}
+
+.banner4 .image img {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+/*----- button ------- */ 
+
+.banner4 img  {
+  
+    position: absolute;
+    left: 46.5%;
+    top: 88%; 
+}
+
+.banner4 img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+
+/*-----banner5-------------------*/
+
+.banner5{
+    background-image: url('../img/banner5.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tablet1{
+    display: none;
+}
+
+.banner5 .image img {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+/*----- button ------- */ 
+
+.banner5 img  {
+  
+    position: absolute;
+    left: 46.5%;
+    top: 88%; 
+}
+
+.banner5 img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+
+
+
 /* ------- POPUP */
 
 /* The Modal (background) */
@@ -115,28 +255,6 @@ header nav ul li:hover {
     border-radius: 10px;
 
 }
-
-/* The Close Button
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-*/
-
-
-
-
 
 
 /* -----movil --- */ 
