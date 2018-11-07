@@ -31,7 +31,7 @@ body{
 header {
     width: 100%;
     z-index: 1 !important;
-    position: fixed;
+    position: absolute;
     height: 4rem;
 }
 header nav {
@@ -68,7 +68,7 @@ header nav ul li a:link {
 header nav ul li a:hover,
 header nav ul li a:active {
     color: #000 !important;
-    border-bottom: 5px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 .lala{
