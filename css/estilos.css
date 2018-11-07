@@ -420,6 +420,12 @@ footer .red img {
     margin: 10px;
 }
 
+footer .red img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+
+
 
 
 /* -----movil --- */ 
