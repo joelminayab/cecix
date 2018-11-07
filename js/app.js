@@ -20,7 +20,7 @@ function main () {
 	    scroll_critical = $("#header-menu").height();
 	    if (window_y > scroll_critical) {
 	       $("#header-menu").css({
-				  "background": "white"
+				  "background": "transparent"
 			});
 	       $(".lala").css({
 	       		"color" : "gray"
