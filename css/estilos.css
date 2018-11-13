@@ -462,7 +462,6 @@ footer .red img:hover{
     main .contenido-cajas{
         justify-content: center
     }
-
 }
 
 @media screen and (max-width: 350px){
@@ -471,3 +470,19 @@ footer .red img:hover{
         font-size:15px;
     }
 }
+
+/*responsive movil */ 
+
+@media only screen and (max-width: 375px) {
+    .banner1 { 
+       background-image: url('../img/portadamobil.png'); 
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .banner245 { 
+       background-image: url('../img/portada2.png'); 
+    }
+}
+
