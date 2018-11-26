@@ -56,6 +56,11 @@ header nav ul li:hover {
     padding: 20px;
 }
 
+.learnmore{
+    display: block;
+    margin: auto;
+}
+
 /*----------banner1-------------------------------*/ 
 
 .banner1{
@@ -291,6 +296,57 @@ header nav ul li:hover {
     main .contenido-cajas{
         justify-content: center
     }
+    .banner1{
+        content: url(../img/tourpantallamobil1.png);
+        width: 100%;
+        height: 90vh;
+    }
+    .popup1 {
+        content: url(../img/popupmobil1.png);
+    }
+
+    
+    .banner2{
+        content: url(../img/tourpantallamobil2.png);
+        width: 100%;
+        height: 90vh;
+    }
+    .popup2 {
+        content: url(../img/popupmobil2.png);
+    }
+
+    .banner3{
+        content: url(../img/tourpantallamobil3.png);
+        width: 100%;
+        height: 90vh;
+    }
+    .popup3 {
+        content: url(../img/popupmobil3.png);
+    }
+
+    .banner4{
+        content: url(../img/tourpantallamobil4.png);
+        width: 100%;
+        height: 90vh;
+    }
+    .popup4 {
+        content: url(../img/popupmobil4.png);
+    }
+
+    .banner5{
+        content: url(../img/tourpantallamobil5.png);
+        width: 100%;
+        height: 90vh;
+    }
+    .popup5 {
+        content: url(../img/popupmobil5.png);
+    }
+
+    .learnmore{
+        display: block;
+        margin: auto;
+    }
+
 
 }
 

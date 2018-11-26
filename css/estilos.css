@@ -242,13 +242,18 @@ main .fotosextra .fotox img {
 /* banner1 */ 
 
 main .portafolio{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    height: 100vh;
     background: #fff;
-    padding: 100px 200px;
+    padding: 40px 40px;
 }
 
 main .portafolio .galeria{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -291,8 +296,8 @@ main .portafolio .galape .fotospe{
 
 main .portafolio .galape .fotospe img{
     width: 100%;
-    margin-left: -1px;
-    margin-right: 200px;
+    /*margin-left: -1px;
+    margin-right: 200px;*/
 
 
 } 
@@ -301,6 +306,9 @@ main .portafolio .galape .fotospe img:hover{
     cursor: pointer;
 }
 
+#mobil {
+    display: none;
+}
 
 /* banner2 */ 
 main .banner2{
@@ -353,20 +361,26 @@ main .banner2 .textospe p br {
 footer {
     
     background-color:rgb(145, 243, 255);
-    padding-bottom: auto;
-    padding-top: auto;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 footer .contacto .contenedor{
-    padding-top: 25px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 100%;
+    width: 100%;
 }
 
 footer .contacto{
     background-color:rgb(145, 243, 255);
-    padding-top: 90px;
-    padding-bottom: 40px;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 footer .footer-textos1{
@@ -402,10 +416,12 @@ footer .footer-textos4{
 
 
 footer .logope img{
-    display:block;
     margin: auto;
-    width: 294.554px;
-    height: 326.468px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 294.554px;
+    height: 326.468px; */
 }
 
 footer .red {
@@ -425,6 +441,18 @@ footer .red img:hover{
     cursor: pointer;
 }
 
+.tellink {
+    color: #000000;
+}
+
+.mobtexting{
+    display: none;
+}
+
+.logofooter{
+    text-align: center;
+    display: table-cell;
+}
 
 
 
@@ -440,6 +468,11 @@ footer .red img:hover{
     header .contenido-header .texto-header .desaparecer{
         display: none;
     }
+    footer.contacto{
+        padding: auto;
+        height: auto;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:630px){
@@ -452,6 +485,12 @@ footer .red img:hover{
     main .portafolio .galeria .fotos{
         width:49%;
     }
+    .pctexting{
+        display: none;
+    }
+    .mobtexting{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -462,13 +501,57 @@ footer .red img:hover{
     main .contenido-cajas{
         justify-content: center
     }
+    .pctexting{
+        display: none;
+    }
+    .mobtexting{
+        display: block;
+    }
+    #pcversion{
+        display: none;
+    }
+    #mobil{
+        display: inline-block;
+        position: relative;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    main .portafolio{
+        height: auto;
+    }
+
+    #mobil .fotos {
+        margin-bottom: 15px;
+        width: 50%;
+        float: left;
+    }
+
+    .middlepic {
+        margin-left: 50%;
+    }
+
+    .clearfix {
+        overflow: visible;
+    }
+
+    .clearfix:after{ 
+        content: ".";
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+    }
+
 }
 
 @media screen and (max-width: 350px){
 
     header .contenido-header .texto-header{
         font-size:15px;
-    }
+    }   
 }
 
 /*responsive movil */ 

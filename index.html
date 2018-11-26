@@ -7,10 +7,9 @@
     <title>My Personal Guide In Lima</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet"> 
-
 </head>
 <body> 
-       <header id="header-menu">
+       <!-- <header id="header-menu">
                 <div class="menu_bar">
                     <a href="#" class="bt-menu"><span class="icon-menu"></span></a>
                 </div>
@@ -22,7 +21,7 @@
                         <li><a href="#contact" class="lala">CONTACT ME</a></li>
                     </ul>
                 </nav>
-            </header> 
+            </header> --> 
         <main>
     <!-- banner 1 -->
     <section class="banner1" id="banner1">
@@ -100,9 +99,8 @@
         
         <!--banner4-->
         <section class="portafolio" id="tours">
-            <div class="contenedor">
-              <!--
-                <div class="portafolio-textos">
+            <div class="contenedor" id="pcversion">  
+                <!-- <div class="portafolio-textos">
                     <h2>Mis aventuras</h2>
                     <p>Contactame si estás preparado</p>
                 </div>  -->
@@ -126,6 +124,23 @@
                     </div>
                 </section>
             </div>
+            <div class="contenedor, clearfix" id="mobil">
+                <div class="fotos">
+                    <a href="archivo1.html"><img src="img/tour1mobil.png" alt=""></a>
+                </div>
+                 <div class="fotos">
+                    <a href="archivo2.html"><img src="img/tour2mobil.png" alt=""></a>
+                </div>
+                <div class="fotos">
+                    <a href="archivo3.html"><img src="img/tour3mobil.png" alt=""></a>
+                </div>
+                <div class="fotos">
+                    <a href="archivo4.html"><img src="img/tour4mobil.png" alt=""></a>
+                </div>
+                <div class="fotos">
+                    <a class="middlepic" href="archivo5.html"><img src="img/tour5mobil.png" alt=""></a>
+                </div>
+            </div>    
         </section>
     </main>
     <!-- footer-->
@@ -133,13 +148,14 @@
         <section class="contacto" id="contact">
             <div class="contenedor">
                 <div class="logope">
-                    <img src="img/logope.png">
+                    <img class="logope" src="img/logocontactomobil.png">
                 </div>
                 <div class="footer-textos1">
-                    <p>WhatsApp:</p>
+                    <p class="whatsapp">WhatsApp:</p>
                 </div>
                 <div class="footer-textos2">
-                    <p>+51 989 747 529</p>
+                    <a class="tellink" href="tel: 511989747529"><p class="mobtexting" class="whatsapp">+51 989 747 529</p></a>
+                    <p  class="pctexting" class="whatsapp">+51 989 747 529</p>
                 </div>
                 <div class="footer-textos4">
                     <p>Email:</p>
@@ -148,6 +164,7 @@
                     <p>mypersonalguideinlima@gmail.com</p>
                 </div>
                 <div class="red">
+                    <a href="https://api.whatsapp.com/send?phone=511989747529" target="_blank"><img src="img/whatsapp.png" alt="" width="43.06" height="43.06"></a>
                    <a href="https://www.instagram.com/personalguidelima/" target="_blank"><img src="img/instagram.png" alt="" width="43.06" height="43.06"></a>
                 </div>
             </div>
