@@ -418,10 +418,9 @@ footer .footer-textos4{
 footer .logope img{
     margin: auto;
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    /* width: 294.554px;
-    height: 326.468px; */
 }
 
 footer .red {
@@ -544,6 +543,10 @@ footer .red img:hover{
         height: 0;
         clear: both;
     }
+
+    footer .logope img{
+    width: 50%;
+}
 
 }
 
