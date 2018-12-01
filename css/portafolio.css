@@ -86,7 +86,7 @@ header nav ul li:hover {
 .banner1 img  {
   
     position: absolute;
-    left: 46.5%;
+    left: 45%;
     top: 88%; 
 }
 
@@ -100,7 +100,7 @@ header nav ul li:hover {
 
 .banner2{
     background-image: url('../img/banner2.png');
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +121,7 @@ header nav ul li:hover {
 .banner2 img  {
   
     position: absolute;
-    left: 46.5%;
+    left: 45%;
     top: 88%; 
 }
 
@@ -135,7 +135,7 @@ header nav ul li:hover {
 
 .banner3{
     background-image: url('../img/banner3.png');
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +156,7 @@ header nav ul li:hover {
 .banner3 img  {
   
     position: absolute;
-    left: 46.5%;
+    left: 45%;
     top: 88%; 
 }
 
@@ -169,7 +169,7 @@ header nav ul li:hover {
 
 .banner4{
     background-image: url('../img/banner4.png');
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,7 +190,7 @@ header nav ul li:hover {
 .banner4 img  {
   
     position: absolute;
-    left: 46.5%;
+    left: 45%;
     top: 88%; 
 }
 
@@ -203,7 +203,7 @@ header nav ul li:hover {
 
 .banner5{
     background-image: url('../img/banner5.png');
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +224,7 @@ header nav ul li:hover {
 .banner5 img  {
   
     position: absolute;
-    left: 46.5%;
+    left: 45%;
     top: 88%; 
 }
 
@@ -243,7 +243,7 @@ header nav ul li:hover {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 150px; /* Location of the box */
-    padding-right: 64px;
+    padding-right: 100px;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -298,52 +298,65 @@ header nav ul li:hover {
         justify-content: center
     }
 
-    .learnmore {
-        width: auto;
-        margin: auto;
-    }
+    
 
     .banner1{
-        display: block;
-        content: url(../img/tourpantallamobil1.png);
-        width: 100%;
+        background-image: url(../img/tourpantallamobil1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60vh; 
     }
-
+    
     .popup1 {
         content: url(../img/popupmobil1.png);
     }
 
     
     .banner2{
-        content: url(../img/tourpantallamobil2.png);
-        width: 100%;
+        background-image: url(../img/tourpantallamobil2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60vh; 
     }
     .popup2 {
         content: url(../img/popupmobil2.png);
     }
 
     .banner3{
-        content: url(../img/tourpantallamobil3.png);
-        width: 100%;
+        background-image: url(../img/tourpantallamobil3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60vh; 
     }
     .popup3 {
         content: url(../img/popupmobil3.png);
     }
 
     .banner4{
-        content: url(../img/tourpantallamobil4.png);
-        width: 100%;
+        background-image: url(../img/tourpantallamobil4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60vh; 
     }
     .popup4 {
         content: url(../img/popupmobil4.png);
     }
 
     .banner5{
-        content: url(../img/tourpantallamobil5.png);
-        width: 100%;
+        background-image: url(../img/tourpantallamobil5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60vh; 
     }
     .popup5 {
         content: url(../img/popupmobil5.png);
+    }
+
+    .learnmore {
+        content: url(../img/botonmobil.png);
+        display: block;
+        margin-top: 4%;
+        margin-left: -8%;
     }
 }
 
