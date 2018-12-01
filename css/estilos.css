@@ -414,7 +414,7 @@ footer .footer-textos4{
 }
 
 footer .logope {
-    margin-top: 5%;
+    /*margin-top: 5%;*/
     display: inline-block;
     width: auto;
     text-align: center;
@@ -432,7 +432,7 @@ footer .red {
     display: flex;
     justify-content: center;
     margin-top: 7px;
-    margin-bottom: 10%;
+    margin-bottom: 7px;
 }
 
 
@@ -519,20 +519,21 @@ footer .red img:hover{
         display: none;
     }
     #mobil{
-        display: inline-block;
+        display: table;
         position: relative;
         height: auto;
-        width: 100%;
+        width: auto;
         text-align: center;
         justify-content: center;
-        padding-top: 20%;
     }
 
     main .portafolio{
-        height: 100vh;
+        height: auto;
+        padding-top: 10%;
     }
 
     #mobil .fotos {
+        display: table-cell;
         margin-bottom: 15px;
         width: 50%;
         float: left;
@@ -564,7 +565,8 @@ footer .red img:hover{
 
     footer .logope img{
     padding-top: 10%;
-    width: 80%;
+    width: 50%;
+    height: 50%;
 }
 
 }
