@@ -413,14 +413,19 @@ footer .footer-textos4{
     margin-top: 10px;
 }
 
-
+footer .logope {
+    
+    margin: auto;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
 
 footer .logope img{
     margin: auto;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    width: auto;
+    text-align: center;
 }
 
 footer .red {
@@ -428,6 +433,7 @@ footer .red {
     display: flex;
     justify-content: center;
     margin-top: 7px;
+    margin-bottom: 10%;
 }
 
 
@@ -505,6 +511,10 @@ footer .red img:hover{
     }
     .mobtexting{
         display: block;
+        width: auto;
+        font-size: 85%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
     #pcversion{
         display: none;
@@ -544,8 +554,17 @@ footer .red img:hover{
         clear: both;
     }
 
+    .email{
+        display: block;
+        width: auto;
+        font-size: 85%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     footer .logope img{
-    width: 50%;
+    padding-top: 10%;
+    width: 80%;
 }
 
 }

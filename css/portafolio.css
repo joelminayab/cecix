@@ -66,7 +66,7 @@ header nav ul li:hover {
 
 .banner1{
     background-image: url('../img/banner1.png');
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,10 +298,17 @@ header nav ul li:hover {
         justify-content: center
     }
 
+    .learnmore {
+        width: auto;
+        margin: auto;
+    }
+
     .banner1{
+        display: block;
         content: url(../img/tourpantallamobil1.png);
         width: 100%;
     }
+
     .popup1 {
         content: url(../img/popupmobil1.png);
     }
