@@ -525,6 +525,7 @@ footer .red img:hover{
         width: auto;
         text-align: center;
         justify-content: center;
+        padding-top: 10%;
     }
 
     main .portafolio{
@@ -565,8 +566,8 @@ footer .red img:hover{
 
     footer .logope img{
     padding-top: 10%;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
 }
 
 }
